@@ -1,0 +1,241 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300%7COswald:400,300,700);
+
+html , body {
+   box-sizing: border-box;
+}
+*, *​:before, *:after {
+   box-sizing: inherit;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #bdd537;
+}
+.header {
+  background: black;
+  width: 100%;
+  height: 40px;
+  flex-wrap: wrap;
+}
+.top-home-main {
+  background: url('../images/wideopentechbackground.jpg') bottom no-repeat;
+  width: 100%;
+  height: 460px;
+  background-size: cover;
+
+}
+
+.nav {
+  display:none;
+}
+
+
+.nav-wrapper {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger {
+  height: 75px;
+  width: 50px;
+  padding-right: 20px;
+
+}
+.hamburger-img {
+  height: 35px;
+  width: 50px;
+  padding-top: 20px;
+}
+.logo-box {
+  height: 75px;
+  width: 50px;
+  padding-right: 150px
+}
+.wot-logo {
+  height:36px;
+  padding-top: 15px;
+  padding-left: 15px;
+
+}
+.main-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+
+}
+.your-digital-text {
+  color: white;
+  font-size: 28px;
+  margin: 10px auto 0;
+}
+.workshop-text {
+  color: white;
+  font-size: 20vw;
+  margin: 0;
+  line-height: inherit;
+  width: 100%;
+}
+
+.sub-text {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  width: 60%;
+  text-align: center;
+  padding: 0;
+}
+
+.mini-box1 {
+  background-color: white;
+  height: 9px;
+  width: 13vw;
+  margin: 0;
+  padding: 0;
+
+}
+.mini-box2 {
+  background-color: white;
+  height: 9px;
+  width: 13vw;
+  margin: 0;
+  padding: 0;
+
+}
+.middle-text {
+  display:flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+.learn-more {
+  background-color: #bdd435;
+  border-radius: 5px;
+  height: 35px;
+  width: 80%;
+  margin: 50px auto;
+  color: white;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.how-it-works-box {
+  margin: 0 auto;
+  padding: 0 10%;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 50px;
+  line-height: 38px;
+  color: #40666d;
+  background-color: #f0f0f0;
+  font-family: "Open Sans"
+}
+
+.pencil-and-wrench {
+
+}
+.pencil-box {
+  height: 80px;
+  width: 80px;
+  margin: 10px auto;
+  background-color: #f0f0f0;
+}
+
+.how-it-works-bottom {
+  font-size: 40px;
+  font-family: 'Oswald';
+  margin: 30px auto;
+  padding-bottom: 50px;
+  line-height: 45px;
+
+}
+
+.works {
+  color: #bdd537;
+  font-size: 42px;
+}
+.lightbulb-column {
+  text-align: center;
+}
+
+.lightbulb {
+  padding-top: 60px;
+}
+
+.lightbulb-text {
+  color:#8f8787;
+  line-height: 25px;
+  font-size: 18px;
+  margin: 50px auto;
+  font-family: "Open Sans";
+}
+
+.green-lightbulb-text {
+  color: #bdd537;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Open Sans";
+}
+
+.left-arrow {
+  height: 27px;
+  width: 33px;
+  margin-top: 25px;
+}
+
+.green-text {
+  color: #bdd537;
+}
+
+.arrow-column {
+  text-align: center;
+}
+
+.arrow-img {
+  padding-top: 130px;
+  padding-bottom: 10px;
+}
+.arrow-text {
+  color:#8f8787;
+  line-height: 25px;
+  font-size: 18px;
+  margin: 50px auto 20px;
+  font-family: "Open Sans";
+}
+.power-column {
+  text-align: center;
+}
+
+.power-img {
+  padding-top: 130px;
+  padding-bottom: 10px;
+}
+.power-text {
+  color:#8f8787;
+  line-height: 25px;
+  font-size: 18px;
+  margin: 50px auto 20px;
+  font-family: "Open Sans";
+}
+
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+}
+  .header {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+    background: green;
+    display: block;
+  }
+
+}
