@@ -1,0 +1,33 @@
+html {
+  background-color: #bdd537;
+}
+body {
+  text-align: center;
+  margin: 0;
+
+}
+
+.panel {
+  text-decoration: underline;
+}
+#newTaskForm {
+  text-align: center;
+  background-color: #bdd537;
+}
+
+#newList {
+
+}
+
+#in-progress {
+
+}
+
+#archived {
+
+}
+
+.columns {
+  display: flex
+  width: 90%;
+}
