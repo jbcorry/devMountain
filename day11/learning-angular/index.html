@@ -1,0 +1,39 @@
+<!doctype html>
+  <html ng-app='myApp'>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Angular Intro</title>
+  </head>
+  <body>
+    <div ng-controller='main'>
+      <input placeholder="name" ng-model='peopleFilter.name'>
+      <input placeholder='gender' ng-model='peopleFilter.gender'>
+      <div class='cards' ng-repeat='people in group | filter: peopleFinder'>
+       <h1>{{people.name}}</<h1>
+         <h4>{{people.gender}}</h4>
+
+         </div>
+         <button ng-click='returningCustomer()'>Click Me</button>
+
+         <h3 ng-show='returningCustomer'>Thanks for coming back to our site!</h3>
+         <h3 ng-hide='returningCustomer'>Welcome to our site feel free to look around!</h3>
+         <h1 ng-if='returningCustomer == true'> This is true</h1>
+
+    </div>
+      <h1></h1>
+
+
+
+
+
+
+
+
+
+      <script src='angular.min.js'></script>
+    <script src="animation.js"></script>
+    </body>
+
+  </html>
